@@ -1,0 +1,19 @@
+.prvi-red,
+.drugi-red,
+.treci-red {
+    display: flex;
+}
+.prvi-red,
+.drugi-red,
+.treci-red > div {
+    flex-grow: 1;
+}
+img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}
+#peti {
+    margin-top: 10px;
+}
